@@ -1,0 +1,19 @@
+uuid: 3872892f-d4cd-4fa6-a00f-cecf04e35730
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: nCc1tWG23-yMhtOZNNQWumy2yvOfKsk-ZZdl7KHNrIk
+name: Event
+type: sf_event
+description: 'Create an <em>event</em> which will be tied to a calendar date. '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

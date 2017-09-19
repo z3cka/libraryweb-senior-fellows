@@ -1,0 +1,47 @@
+uuid: 49889a18-7373-4d74-9274-31bfcbffc6f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.poster
+    - field.field.node.sf_photo_gallery.body
+    - field.field.node.sf_photo_gallery.field_sf_gallery_category
+    - field.field.node.sf_photo_gallery.field_sf_gallery_photos
+    - field.field.node.sf_photo_gallery.field_sf_primary_image
+    - field.field.node.sf_photo_gallery.field_sf_tags
+    - image.style.sf_landscape_16x9
+    - node.type.sf_photo_gallery
+  module:
+    - image
+    - text
+    - user
+_core:
+  default_config_hash: ji8bUHtt8-G1fVKWp5OAeM9tVWM1yuDumLR4YGgA2iU
+id: node.sf_photo_gallery.poster
+targetEntityType: node
+bundle: sf_photo_gallery
+mode: poster
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 100
+    third_party_settings: {  }
+    region: content
+  field_sf_primary_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: sf_landscape_16x9
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_sf_gallery_category: true
+  field_sf_gallery_photos: true
+  field_sf_tags: true
+  links: true
+  sharemessage__sf_social_share_buttons: true

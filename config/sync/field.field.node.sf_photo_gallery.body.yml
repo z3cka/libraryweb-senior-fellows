@@ -1,0 +1,24 @@
+uuid: e15abc69-ab35-4dc5-815e-5f84ec922234
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sf_photo_gallery
+  module:
+    - text
+_core:
+  default_config_hash: 26hNJY35RHR9pDU_uKE4AI2oei3pisG8L_0u-pO8E-s
+id: node.sf_photo_gallery.body
+field_name: body
+entity_type: node
+bundle: sf_photo_gallery
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

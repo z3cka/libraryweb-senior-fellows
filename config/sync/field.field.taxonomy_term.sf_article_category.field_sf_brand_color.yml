@@ -1,0 +1,23 @@
+uuid: 6a3f777d-afe9-4986-ba79-1365870844fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_sf_brand_color
+    - taxonomy.vocabulary.sf_article_category
+  module:
+    - options
+_core:
+  default_config_hash: Dewv117oSkA4y-wjrvkiqf-x5Bf3UCu_FnbbPtqX33s
+id: taxonomy_term.sf_article_category.field_sf_brand_color
+field_name: field_sf_brand_color
+entity_type: taxonomy_term
+bundle: sf_article_category
+label: 'Brand Color'
+description: 'Choose a color to be assigned to this category.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

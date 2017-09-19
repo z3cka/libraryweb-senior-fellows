@@ -1,0 +1,18 @@
+uuid: 299a6449-d686-44c8-8232-ac4b2dc08f93
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: tCuWWZYdTvJZAKrRzdwUtmjBJwtaL0vCh7EV4gTX_Uc
+name: sf_landscape_4x3
+label: 'Landscape 4x3'
+effects:
+  sf_landscape_4x3_focal_point_scale_and_crop:
+    uuid: sf_landscape_4x3_focal_point_scale_and_crop
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 640
+      height: 480

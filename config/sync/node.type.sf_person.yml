@@ -1,0 +1,19 @@
+uuid: 7d4a4e17-0452-460a-8186-7c4469f1522a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: 8rVWtzZy1hiKq56IYz7Kea08HngcXBv49vGBCkcBylM
+name: Person
+type: sf_person
+description: 'Add a <em>person</em> to profile an individual.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

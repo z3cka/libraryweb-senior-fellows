@@ -1,0 +1,17 @@
+uuid: c1ea68aa-566e-4aab-b27d-136f0b37f7bf
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: FwOPV_uiZeaCKvpyR2UNsGz_CNvu0P-uYCAxyYYw_ew
+name: sf_medium_width
+label: 'Medium Width (500px)'
+effects:
+  sf_medium_width_scale:
+    uuid: sf_medium_width_scale
+    id: image_scale
+    weight: 1
+    data:
+      width: 500
+      height: null
+      upscale: false

@@ -1,0 +1,17 @@
+uuid: c7e888be-4be4-4a11-9028-d94551687f53
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: s4afmqU2IEEF6ozYyCy8wolndH2nmLH3w6b__xU_E4k
+name: sf_gallery_full
+label: 'Gallery Full'
+effects:
+  sf_gallery_full_image_scale:
+    uuid: sf_gallery_full_image_scale
+    id: image_scale
+    weight: 1
+    data:
+      width: 2000
+      height: 2000
+      upscale: false

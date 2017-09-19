@@ -1,0 +1,22 @@
+uuid: 2bd5e54a-8bc8-4277-9064-b1130fcd444c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ucla_gateway
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: ucla_gateway_content
+theme: ucla_gateway
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: 3cbbd4ed-0835-4dd2-8491-08a88ffac915
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sf_event
+_core:
+  default_config_hash: 1uwk0V1RTuBGsThnOd6bAGDcy2Kx5aqabKkLIXJlhps
+id: node.sf_event.promote
+field_name: promote
+entity_type: node
+bundle: sf_event
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

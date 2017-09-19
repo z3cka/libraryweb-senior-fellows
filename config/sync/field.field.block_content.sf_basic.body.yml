@@ -1,0 +1,24 @@
+uuid: 94f2cf06-e476-4c48-973b-abef05a292ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sf_basic
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: lgtRXdT9Lc8tbgREmhspY7gzD-23--ggSAW9-coHW9Q
+id: block_content.sf_basic.body
+field_name: body
+entity_type: block_content
+bundle: sf_basic
+label: body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

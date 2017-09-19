@@ -1,0 +1,20 @@
+uuid: a953d48d-2335-495b-900a-36d8612c97a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: LqK2bG2ipPq0UCMKtUH57QdCs1FA2PEpiKAAniXPe-I
+id: node.field_sf_featured_status
+field_name: field_sf_featured_status
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

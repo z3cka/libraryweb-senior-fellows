@@ -1,0 +1,12 @@
+uuid: 4ca2c95d-78cd-461e-a6d1-1be09e80148f
+langcode: en
+status: false
+dependencies:
+  module:
+    - sharemessage
+_core:
+  default_config_hash: bgTOan9IYAGEOCPRLPj1VSmZ9QeM64kmMQNVkJg5sVQ
+id: sharemessage.attributes_only
+label: 'Share links with Addthis attributes only'
+targetEntityType: sharemessage
+cache: true

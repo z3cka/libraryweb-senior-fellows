@@ -1,0 +1,12 @@
+uuid: ad447dbd-c01f-45cc-bffa-2117c54c6f2e
+langcode: en
+status: false
+dependencies:
+  module:
+    - sharemessage
+_core:
+  default_config_hash: C8t1UwFZtniXSviBy4oCoOb8On0fS5fx0jhMjwEUk40
+id: sharemessage.only_og_tags
+label: 'Only OG tags'
+targetEntityType: sharemessage
+cache: true

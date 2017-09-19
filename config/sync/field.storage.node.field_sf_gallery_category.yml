@@ -1,0 +1,22 @@
+uuid: 81fb0885-dd82-4f1d-945f-8d67bff0eab6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: sQXMH6svyMhKBE8JlVATj7a1bmRuTkZyJkdOPjdL8yM
+id: node.field_sf_gallery_category
+field_name: field_sf_gallery_category
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

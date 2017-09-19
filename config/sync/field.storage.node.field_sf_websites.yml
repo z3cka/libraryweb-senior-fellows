@@ -1,0 +1,21 @@
+uuid: 7d16fc7e-7c00-4e68-933a-8bcc384c4c67
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: x1RRcdEhKhWxuiZXy3EEjoN6-R-J2Q6VHmxslIKqdkA
+id: node.field_sf_websites
+field_name: field_sf_websites
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

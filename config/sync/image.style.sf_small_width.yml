@@ -1,0 +1,17 @@
+uuid: 02d32119-a69f-4bad-a49e-7d7a887affb2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: GGOTkpEgF4Hyv8l8Ez7dI2iDTkNM9rhe4ImwR8CY4Zc
+name: sf_small_width
+label: 'Small Width (200px)'
+effects:
+  sf_small_width_scale:
+    uuid: sf_small_width_scale
+    id: image_scale
+    weight: 1
+    data:
+      width: 200
+      height: null
+      upscale: false

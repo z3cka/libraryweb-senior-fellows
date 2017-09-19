@@ -1,0 +1,13 @@
+uuid: f7039ff9-96bd-42d0-997c-fabc04180f19
+langcode: en
+status: true
+dependencies:
+  module:
+    - url_embed
+_core:
+  default_config_hash: p_AtPbTd6niywC8P6zRfczYFjYLsejfH7Qcwo47ixCM
+label: URL
+id: url
+type_id: url
+type_settings: {  }
+icon_uuid: null

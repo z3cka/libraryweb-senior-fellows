@@ -1,0 +1,18 @@
+uuid: e82db1e9-9074-4f4c-9eea-dc45d195395b
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: U13l93o1-M6IxrpQvXnekRwMXeQv8tW2RLofTxgDrpE
+name: sf_slideshow_full
+label: 'Slideshow Full'
+effects:
+  sf_slideshow_full_focal_point_scale_and_crop:
+    uuid: sf_slideshow_full_focal_point_scale_and_crop
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1000
+      height: 563

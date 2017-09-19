@@ -1,0 +1,12 @@
+locked_prefix_patterns:
+  - sf_
+locked_node_types: {  }
+locked_block_content_types: {  }
+locked_filter_formats: {  }
+locked_pathauto_patterns: {  }
+locked_taxonomy_vocabularies: {  }
+locked_views: {  }
+locked_image_styles: {  }
+locked_themes: {  }
+_core:
+  default_config_hash: 8igOI11oz93rTkl25BFhH6wCkQWf1aKaCAmKVobRIv4

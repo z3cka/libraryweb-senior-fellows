@@ -1,0 +1,18 @@
+uuid: f7c010c0-a2da-4c33-8b15-b5ba903d2fae
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: qa9gN2-muoLPviUVcHKoGsm_Wka8EvhWrKceG3OYt1c
+name: sf_hero_banner
+label: 'Hero Banner'
+effects:
+  sf_hero_banner_focal_point_scale_and_crop:
+    uuid: sf_hero_banner_focal_point_scale_and_crop
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 2000
+      height: 770

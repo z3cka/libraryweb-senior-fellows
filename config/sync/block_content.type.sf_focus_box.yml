@@ -1,0 +1,10 @@
+uuid: 6f3a40e4-acd7-4baf-8f7b-873f16c72199
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xglNhNAfqv0nCIkYu708nF_DSi_VgDCtctmdxHQuH7M
+id: sf_focus_box
+label: 'Focus Box'
+revision: 1
+description: 'A box with an image, title, and body to bring focus to a specific area of a page.'

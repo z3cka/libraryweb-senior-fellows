@@ -1,0 +1,27 @@
+uuid: da6bb20d-788a-4066-ba7b-0583089dc7d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.sidebar-nav
+  module:
+    - menu_block
+  theme:
+    - ucla_gateway
+id: sidebarnav
+theme: ucla_gateway
+region: secondary_nav
+weight: -6
+provider: null
+plugin: 'menu_block:sidebar-nav'
+settings:
+  id: 'menu_block:sidebar-nav'
+  label: 'Sidebar Nav'
+  provider: menu_block
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand: 0
+  parent: 'sidebar-nav:'
+  suggestion: sidebar_nav
+visibility: {  }

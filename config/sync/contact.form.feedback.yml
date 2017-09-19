@@ -1,0 +1,14 @@
+uuid: ffc1b600-eac6-4325-90ad-63f120262d8b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - mail@mail.com
+reply: ''
+weight: 0
+message: null
+redirect: null

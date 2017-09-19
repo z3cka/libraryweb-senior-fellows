@@ -1,0 +1,35 @@
+uuid: ba432156-70f9-4a6c-9f53-5220fe734855
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Uj65ZMS0A8JDJoQRVOVQ7I8tFsCFvKmSmKol-ah8Pro
+id: contributor
+label: Contributor
+weight: -8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'access tour'
+  - 'create sf_article content'
+  - 'create sf_event content'
+  - 'create sf_page content'
+  - 'create sf_person content'
+  - 'create sf_photo_gallery content'
+  - 'create webform'
+  - 'delete own sf_article content'
+  - 'delete own sf_event content'
+  - 'delete own sf_page content'
+  - 'delete own sf_person content'
+  - 'delete own sf_photo_gallery content'
+  - 'delete own webform'
+  - 'edit own sf_article content'
+  - 'edit own sf_event content'
+  - 'edit own sf_page content'
+  - 'edit own sf_person content'
+  - 'edit own sf_photo_gallery content'
+  - 'edit own webform'
+  - 'view own unpublished content'
+  - 'view the administration theme'

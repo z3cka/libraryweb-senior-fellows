@@ -1,0 +1,18 @@
+uuid: 5987f079-99a0-4aff-9d0d-2042dba03061
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-hsBsWxysoa8K7Ax_4QfPlhNGhnDXocoEw4Nfufz3qw'
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access sitemap'
+  - 'search content'
+  - 'use text format sf_basic_html'
+  - 'use text format sf_restricted_html'

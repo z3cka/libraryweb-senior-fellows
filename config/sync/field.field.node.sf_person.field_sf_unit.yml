@@ -1,0 +1,21 @@
+uuid: ab90f591-7bc5-4761-a0bc-dbd27e339665
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sf_unit
+    - node.type.sf_person
+_core:
+  default_config_hash: H8Zv-bvWbivDB5emnwKKuK1ILi6-TlFflFV5Ih6uoEc
+id: node.sf_person.field_sf_unit
+field_name: field_sf_unit
+entity_type: node
+bundle: sf_person
+label: Unit
+description: 'This could be a Department or Organization.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

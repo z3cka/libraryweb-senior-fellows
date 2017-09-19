@@ -1,0 +1,5 @@
+export:
+  folder: features
+langcode: en
+_core:
+  default_config_hash: RoCjHY6ntOJ46UTKNoNljWGgWwiMkn0x4y9uKRcVnYI

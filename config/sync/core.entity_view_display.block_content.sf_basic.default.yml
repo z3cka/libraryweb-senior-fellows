@@ -1,0 +1,24 @@
+uuid: 204598a5-b319-43f6-ba53-68a3479fdada
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sf_basic
+    - field.field.block_content.sf_basic.body
+  module:
+    - text
+_core:
+  default_config_hash: PEW3qunXsorcZePtoZut9ZqkBPLMIlQT5KtKdPD02Ps
+id: block_content.sf_basic.default
+targetEntityType: block_content
+bundle: sf_basic
+mode: default
+content:
+  body:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

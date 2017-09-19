@@ -1,0 +1,24 @@
+uuid: 00de5b6e-35fc-494a-ae3b-1879a8f5f6c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: VScDc2h9ezh_JD_VWg-iTUVdk6WAxM1ck-FB3HNeBUo
+id: sf_event
+label: Event
+type: 'canonical_entities:node'
+pattern: 'events/[node:title]'
+selection_criteria:
+  da515c89-b532-486d-8afc-cbad8fb64634:
+    id: node_type
+    bundles:
+      sf_event: sf_event
+    negate: false
+    context_mapping:
+      node: node
+    uuid: da515c89-b532-486d-8afc-cbad8fb64634
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,57 @@
+uuid: e552fcc1-dc0d-4812-adbf-62d82ce9fbd8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MigoCEdG1xkgg0P9ThsBLm_dh9W7QCXAYucdtUS6_LU
+id: site_manager
+label: 'Site Manager'
+weight: -6
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access in-place editing'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access toolbar'
+  - 'access tour'
+  - 'access user profiles'
+  - 'access webform overview'
+  - 'administer account settings'
+  - 'administer blocks'
+  - 'administer contact forms'
+  - 'administer google analytics'
+  - 'administer honeypot'
+  - 'administer menu'
+  - 'administer meta tags'
+  - 'administer nodes'
+  - 'administer redirects'
+  - 'administer site configuration'
+  - 'administer sitemap'
+  - 'administer sitemap settings'
+  - 'administer taxonomy'
+  - 'administer themes'
+  - 'administer users'
+  - 'administer webform element access'
+  - 'administer webform submission'
+  - 'assign roles'
+  - 'bypass node access'
+  - 'create url aliases'
+  - 'create webform'
+  - 'customize shortcut links'
+  - 'delete all revisions'
+  - 'delete any webform'
+  - 'delete own webform'
+  - 'edit any webform'
+  - 'edit own webform'
+  - 'edit webform assets'
+  - 'revert all revisions'
+  - 'switch shortcut sets'
+  - 'use text format sf_full_html'
+  - 'view all revisions'
+  - 'view any webform submission'
+  - 'view own unpublished content'
+  - 'view the administration theme'

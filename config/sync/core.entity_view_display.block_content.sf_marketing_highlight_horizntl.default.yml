@@ -1,0 +1,50 @@
+uuid: d887aaed-bb5e-44ca-9a6f-bdd3aa450851
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sf_marketing_highlight_horizntl
+    - field.field.block_content.sf_marketing_highlight_horizntl.field_sf_image
+    - field.field.block_content.sf_marketing_highlight_horizntl.field_sf_link
+    - field.field.block_content.sf_marketing_highlight_horizntl.field_sf_title
+    - image.style.sf_landscape_16x9
+  module:
+    - image
+    - link
+_core:
+  default_config_hash: 01P3nOz6v7LZozbyPB4f1cooLuKL8AP8seh9CLO3_No
+id: block_content.sf_marketing_highlight_horizntl.default
+targetEntityType: block_content
+bundle: sf_marketing_highlight_horizntl
+mode: default
+content:
+  field_sf_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: sf_landscape_16x9
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_sf_link:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: null
+      url_only: true
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_sf_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

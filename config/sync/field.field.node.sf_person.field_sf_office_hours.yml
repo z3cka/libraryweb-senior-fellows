@@ -1,0 +1,21 @@
+uuid: bfa767aa-9589-4a72-9594-be20e239260c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sf_office_hours
+    - node.type.sf_person
+_core:
+  default_config_hash: GamVG-f5TdMyIA1zZ5Rv6V2w-6koW8xYPk0w9xn-1QI
+id: node.sf_person.field_sf_office_hours
+field_name: field_sf_office_hours
+entity_type: node
+bundle: sf_person
+label: 'Office Hours'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

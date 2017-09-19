@@ -1,0 +1,18 @@
+uuid: 58e66dcc-759f-4b1f-87f9-02d3e04bf77f
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: ruk9TT3e_wBQkNl6ZiUUJm4wl6TKWfgSTzk62PcVmEQ
+name: sf_profile
+label: Profile
+effects:
+  sf_profile_focal_point_scale_and_crop:
+    uuid: sf_profile_focal_point_scale_and_crop
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 520
+      height: 580

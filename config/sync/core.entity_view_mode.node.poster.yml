@@ -1,0 +1,12 @@
+uuid: bf31eba6-b51c-4242-a59c-70851ae20542
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: YmQqoMtYeUhV3Q022wVLBLoEGFLo8J0mJKpbacah3NA
+id: node.poster
+label: Poster
+targetEntityType: node
+cache: true

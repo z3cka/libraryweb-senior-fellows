@@ -1,0 +1,30 @@
+uuid: 109646ac-05ea-4552-83be-2b33238fd6b1
+langcode: en
+status: false
+dependencies:
+  module:
+    - ctools
+    - search
+  theme:
+    - ucla_gateway
+id: searchform
+theme: ucla_gateway
+region: header
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search [site:name]'
+  provider: search
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      sf_article: sf_article
+      sf_event: sf_event
+      sf_page: sf_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

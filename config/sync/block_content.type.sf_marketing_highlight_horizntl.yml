@@ -1,0 +1,10 @@
+uuid: 7f2335e8-e31f-4fe8-b39f-219a90d8af4f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: b7HI79Wl1yFN1toaT0x_mS4zfGMQMabZtQ4kCPm8PDI
+id: sf_marketing_highlight_horizntl
+label: 'Marketing Highlight - Horizontal'
+revision: 1
+description: 'An "Horizontal" attention getting block which uses an image and is linked to some content.'

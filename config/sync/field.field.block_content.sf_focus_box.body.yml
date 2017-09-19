@@ -1,0 +1,24 @@
+uuid: 5fa9cdbf-8d97-41a4-8490-97bc955678aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sf_focus_box
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: jJTuVxHQTSlJM6IQPscoyuk0nRw7I6ROP-7BacFG-J4
+id: block_content.sf_focus_box.body
+field_name: body
+entity_type: block_content
+bundle: sf_focus_box
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

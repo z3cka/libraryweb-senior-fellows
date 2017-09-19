@@ -1,0 +1,11 @@
+uuid: 3e2539af-1b99-4584-b6a5-214512fded58
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: b8tIQ9DCt4Kt5cjSPuRiJIFqD4Uak28jEvhD36odX9w
+name: 'Article Categories'
+vid: sf_article_category
+description: 'This is a taxonomy of article categories to organize the articles on your site.'
+hierarchy: 0
+weight: 0

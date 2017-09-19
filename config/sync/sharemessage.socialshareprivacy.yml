@@ -1,0 +1,8 @@
+services:
+  facebook: facebook
+  twitter: twitter
+facebook_action: ''
+disqus_shortname: ''
+flattr_uid: ''
+_core:
+  default_config_hash: R69CjZFTgvbjzjbh2sypW69RlDcu269IRcC7uSnqSrg

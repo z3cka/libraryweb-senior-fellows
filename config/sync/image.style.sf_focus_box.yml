@@ -1,0 +1,18 @@
+uuid: f3e8bfe0-62a3-4f7a-8b2d-4377686feac7
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: BvmbxDjR1HxNifcSa8jZYKvaEyUsgo4qY9QMGqh4AVc
+name: sf_focus_box
+label: 'Focus Box'
+effects:
+  sf_focus_box_focal_point_scale_and_crop:
+    uuid: sf_focus_focal_point_scale_and_crop
+    id: focal_point_scale_and_crop
+    weight: 2
+    data:
+      width: 1000
+      height: 380

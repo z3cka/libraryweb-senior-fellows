@@ -1,0 +1,24 @@
+uuid: 516c6444-7b2d-4421-b066-e90a2b1a84a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sf_page
+  module:
+    - text
+_core:
+  default_config_hash: ifJ9r9Y_1lvU602bnO5x1A5Q-IhxdvUV9qNVVm8zxSA
+id: node.sf_page.body
+field_name: body
+entity_type: node
+bundle: sf_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,27 @@
+uuid: bc687664-0664-4502-ac64-bf3e0d4c9ded
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.sf_article_category.field_sf_brand_color
+    - field.field.taxonomy_term.sf_article_category.field_sf_primary_image
+    - taxonomy.vocabulary.sf_article_category
+  module:
+    - text
+_core:
+  default_config_hash: S1LZuUhVRIhbCma9qpggzYq1HyyJJx24o-JB9adV_JY
+id: taxonomy_term.sf_article_category.default
+targetEntityType: taxonomy_term
+bundle: sf_article_category
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_sf_brand_color: true
+  field_sf_primary_image: true

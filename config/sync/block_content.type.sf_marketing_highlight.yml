@@ -1,0 +1,10 @@
+uuid: b3500170-5855-4b2a-8b5a-6a8123df3502
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: swavM8UDG9mPQeuttsnayR62KOPBvAOTo_ZI85-aEG0
+id: sf_marketing_highlight
+label: 'Marketing Highlight'
+revision: 1
+description: 'An attention getting block which uses an image and is linked to some content.'

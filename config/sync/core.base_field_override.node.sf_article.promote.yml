@@ -1,0 +1,24 @@
+uuid: c9f390e3-564b-4691-a4b7-e3d1d5a5436c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sf_article
+_core:
+  default_config_hash: U2gIE2iQ_TeyX1jmJphgsGHFlbtXDpvq-kn78Wa0MEQ
+id: node.sf_article.promote
+field_name: promote
+entity_type: node
+bundle: sf_article
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

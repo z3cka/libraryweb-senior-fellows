@@ -1,0 +1,25 @@
+uuid: 970ef396-5733-4850-9119-5f125a5de6c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sf_meta_tags
+    - node.type.sf_person
+  module:
+    - metatag
+_core:
+  default_config_hash: NMNnIEkTR9Zy2zrcVOyeK5JfztY8w4oPLdUblFOA5XU
+id: node.sf_person.field_sf_meta_tags
+field_name: field_sf_meta_tags
+entity_type: node
+bundle: sf_person
+label: 'Meta Tags'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'a:1:{s:5:"title";s:34:"[current-page:title] | [site:name]";}'
+default_value_callback: ''
+settings: {  }
+field_type: metatag

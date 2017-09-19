@@ -1,0 +1,21 @@
+uuid: 8df07223-da6d-4111-a3df-0f97ed9c885a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: A8rx8Ual8cZ7ON4zikricERO5ylnn66NwFfzeBRuGEo
+id: node.field_sf_person_reference
+field_name: field_sf_person_reference
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

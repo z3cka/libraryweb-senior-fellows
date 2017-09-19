@@ -1,0 +1,18 @@
+uuid: f168e50b-718e-4403-962c-9ee9035fad73
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: 2xeL_mnKqeYV4FYGYEyZNWgx6sZEcmK_KV5hOoV1Gqg
+name: sf_landscape_16x9
+label: 'Landscape 16x9'
+effects:
+  sf_landscape_16x9_focal_point_scale_and_crop:
+    uuid: sf_landscape_16x9_focal_point_scale_and_crop
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1280
+      height: 720
