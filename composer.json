@@ -74,10 +74,12 @@
             "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
         ],
         "post-install-cmd": [
+            "@drupal-scaffold",
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
             "cp -a web/profiles/contrib/sitefarm_seed/libraries/. web/libraries/"
         ],
         "post-update-cmd": [
+            "@drupal-scaffold",
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
             "cp -a web/profiles/contrib/sitefarm_seed/libraries/. web/libraries/"
         ]
