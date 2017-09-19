@@ -5,8 +5,12 @@
     "license": "",
     "authors": [
         {
-            "name": "",
-            "role": ""
+            "name": "Casey Grzecka",
+            "role": "Developer"
+        },
+        {
+            "name": "Elaine Blakeman",
+            "role": "Developer"
         }
     ],
     "repositories": [
@@ -18,6 +22,11 @@
           "type": "vcs",
           "no-api": true,
           "url": "git@github.com:uclalibrary/sitefarm_seed.git"
+        },
+        {
+          "type": "vcs",
+          "no-api": true,
+          "url": "git@github.com:uclalibrary/ucla_gateway.git"
         }
     ],
     "require": {
@@ -28,7 +37,8 @@
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
-        "ucdavis/sitefarm_seed": "dev-8.x-1.x"
+        "ucdavis/sitefarm_seed": "dev-8.x-1.x",
+        "uclalibrary/ucla_gateway": "dev-master"
     },
     "require-dev": {
         "behat/mink": "~1.7",
