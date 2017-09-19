@@ -1,8 +1,8 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
+    "name": "uclalibrary/libraryweb-senior-fellows",
+    "description": "UCLA Senior Fellows Drupal 8 project",
     "type": "project",
-    "license": "GPL-2.0+",
+    "license": "",
     "authors": [
         {
             "name": "",
@@ -24,10 +24,7 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
-        "drupal/console": "^1.0.1",
         "drupal/core": "~8.0",
-        "drupal/devel": "^1.0",
-        "drupal/search_kint": "^1.0",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
@@ -36,6 +33,9 @@
     "require-dev": {
         "behat/mink": "~1.7",
         "behat/mink-goutte-driver": "~1.2",
+        "drupal/console": "^1.0.1",
+        "drupal/devel": "^1.0",
+        "drupal/search_kint": "^1.0",
         "jcalderonzumba/gastonjs": "~1.0.2",
         "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
         "mikey179/vfsstream": "~1.2",
