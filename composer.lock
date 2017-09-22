@@ -5681,12 +5681,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:uclalibrary/ucla_gateway.git",
-                "reference": "1d9c2d228c768cac5357e2fca1f0c983e8ed4e59"
+                "reference": "e89ed5ca24e48a62521b3a22757db953dca3f84c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uclalibrary/ucla_gateway/zipball/1d9c2d228c768cac5357e2fca1f0c983e8ed4e59",
-                "reference": "1d9c2d228c768cac5357e2fca1f0c983e8ed4e59",
+                "url": "https://api.github.com/repos/uclalibrary/ucla_gateway/zipball/e89ed5ca24e48a62521b3a22757db953dca3f84c",
+                "reference": "e89ed5ca24e48a62521b3a22757db953dca3f84c",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -5695,12 +5695,16 @@
             ],
             "authors": [
                 {
+                    "name": "Elaine Blakeman",
+                    "email": "elaineblakeman@library.ucla.edu"
+                },
+                {
                     "name": "Casey Grzecka",
                     "email": "cgrzecka@library.ucla.edu"
                 }
             ],
             "description": "The UCLA Gateway theme.",
-            "time": "2017-09-19 19:06:36"
+            "time": "2017-09-21 23:16:13"
         },
         {
             "name": "webflo/drupal-finder",
