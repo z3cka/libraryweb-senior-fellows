@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f35ae953c3536994fd4383bea5b3f6e",
+    "content-hash": "0fb88f6648a41ac223ff835fb34cac46",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5677,16 +5677,16 @@
         },
         {
             "name": "uclalibrary/ucla_gateway",
-            "version": "dev-master",
+            "version": "1.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/UCLALibrary/ucla_gateway.git",
-                "reference": "e89ed5ca24e48a62521b3a22757db953dca3f84c"
+                "reference": "2cabbbf8a7f959a02301cb688053d56696f07756"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uclalibrary/ucla_gateway/zipball/e89ed5ca24e48a62521b3a22757db953dca3f84c",
-                "reference": "e89ed5ca24e48a62521b3a22757db953dca3f84c",
+                "url": "https://api.github.com/repos/UCLALibrary/ucla_gateway/zipball/2cabbbf8a7f959a02301cb688053d56696f07756",
+                "reference": "2cabbbf8a7f959a02301cb688053d56696f07756",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -5704,7 +5704,7 @@
                 }
             ],
             "description": "The UCLA Gateway theme.",
-            "time": "2017-09-25 22:49:35"
+            "time": "2017-09-25T22:49:35+00:00"
         },
         {
             "name": "webflo/drupal-finder",
@@ -8519,8 +8519,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "ucdavis/sitefarm_seed": 20,
-        "uclalibrary/ucla_gateway": 20
+        "ucdavis/sitefarm_seed": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
