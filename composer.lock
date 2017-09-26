@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7c297bacb3d1925c9deffd6801c98b3",
+    "content-hash": "3f35ae953c3536994fd4383bea5b3f6e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5704,7 +5704,7 @@
                 }
             ],
             "description": "The UCLA Gateway theme.",
-            "time": "2017-09-25 19:12:25"
+            "time": "2017-09-25 22:49:35"
         },
         {
             "name": "webflo/drupal-finder",
