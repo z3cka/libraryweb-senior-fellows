@@ -1,6 +1,6 @@
 # Senior Fellows at UCLA
 
-The program is a collaborative effort of the UCLA Library, UCLA Graduate School of Education and Information Studies, and Ithaka S+R, a nonprofit that provides guidance to the academic community.
+The program is a collaborative effort of the UCLA Library, UCLA Graduate School of Education and Information Studies, and Ithaka S+R, a nonprofit that provides guidance to the academic community. This project is built using [drupal-composer](https://github.com/drupal-composer/drupal-project) with the UC D8 distro _(currently private)_.
 
 ## Development Setup
 
@@ -45,43 +45,9 @@ This project uses the [UCLALibrary/ucla_gateway](https://github.com/uclalibrary/
     - This will see the latest updates in you theme can put them into you composer.lock file
 
   4. Commit changes in composer lock – `git add composer.lock && git commit -m "updates to latest theme changes with that thing`
+
   5. Push to your fork and make PR
 
 4. Approve and Merge PR and run deployment steps
 
---------------------------------------------------------------------------------
-
-**_TDB if we need the rest of this stuff_**
-
-## Updating Drupal Core
-
-This project will attempt to keep all of your Drupal Core files up-to-date; the project [drupal-composer/drupal-scaffold](https://github.com/drupal-composer/drupal-scaffold) is used to ensure that your scaffold files are updated every time drupal/core is updated. If you customize any of the "scaffolding" files (commonly .htaccess), you may need to merge conflicts if any of your modified files are updated in a new release of Drupal core.
-
-Follow the steps below to update your core files.
-
-1. Run `composer update drupal/core --with-dependencies` to update Drupal Core and its dependencies.
-2. Run `git diff` to determine if any of the scaffolding files have changed. Review the files for any changes and restore any customizations to `.htaccess` or `robots.txt`.
-3. Commit everything all together in a single commit, so `web` will remain in sync with the `core` when checking out branches or running `git bisect`.
-4. In the event that there are non-trivial conflicts in step 2, you may wish to perform these steps on a branch, and use `git merge` to combine the updated core files with your customized files. This facilitates the use of a [three-way merge tool such as kdiff3](http://www.gitshah.com/2010/12/how-to-setup-kdiff-as-diff-tool-for-git.html). This setup is not necessary if your changes are simple; keeping all of your modifications at the beginning or end of the file is a good strategy to keep merges easy.
-
-## FAQ
-
-### How can I apply patches to downloaded modules?
-
-If you need to apply patches (depending on the project being modified, a pull request is often a better solution), you can do so with the [composer-patches](https://github.com/cweagans/composer-patches) plugin.
-
-To add a patch to drupal module foobar insert the patches section in the extra section of composer.json:
-
-```json
-"extra": {
-    "patches": {
-        "drupal/foobar": {
-            "Patch description": "URL to patch"
-        }
-    }
-}
-```
-
-### How do I switch from packagist.drupal-composer.org to packages.drupal.org?
-
-Follow the instructions in the [documentation on drupal.org](https://www.drupal.org/docs/develop/using-composer/using-packagesdrupalorg).
+## Updating Drupal Core (TBD)
