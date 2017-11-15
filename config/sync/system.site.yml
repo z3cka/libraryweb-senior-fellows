@@ -15,3 +15,4 @@ _core:
 credit_info:
   value: ''
   format: sf_basic_html
+mail_notification: ''
