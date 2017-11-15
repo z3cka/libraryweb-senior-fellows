@@ -1,6 +1,6 @@
 # Senior Fellows at UCLA
 
-The program is a collaborative effort of the UCLA Library, UCLA Graduate School of Education and Information Studies, and Ithaka S+R, a nonprofit that provides guidance to the academic community. This project is built using [drupal-composer](https://github.com/drupal-composer/drupal-project) with the UC D8 distro _(currently private)_.
+The program is a collaborative effort of the UCLA Library, UCLA Graduate School of Education and Information Studies, and Ithaka S+R, a nonprofit that provides guidance to the academic community. This project is built using [drupal-composer](https://github.com/drupal-composer/drupal-project) with the [UC D8 distro](https://github.com/ucdavis/sitefarm_seed).
 
 ## Development Setup
 
@@ -39,7 +39,7 @@ This project uses the [UCLALibrary/ucla_gateway](https://github.com/uclalibrary/
   2. Checkout topic branch – `git checkout -b deploy-<your-theme-update-topic> upstream/master`
   3. Update your composer lock – `composer update <theme-repo-package>` eg:
 
-    - `composer update uclalibrary/ucla_gateway` _(don't forget `fin exec ...` if you are using docksal)_
+    - `composer update uclalibrary/ucla_gateway`
     - This will see the latest updates in you theme can put them into you composer.lock file
 
   4. Commit changes in composer lock – `git add composer.lock && git commit -m "updates to latest theme changes with that thing`
