@@ -11,8 +11,6 @@ The program is a collaborative effort of the UCLA Library, UCLA Graduate School 
 - [Composer](https://getcomposer.org/doc/00-intro.md)
 - Drupal 8 env _(see recommended Docksal setup)_
 
-### Recommended Docksal Setup (pending)
-
 ### Getting Started
 
 `git clone`, `cd [new-project-dir]`, `composer install`, and go!
