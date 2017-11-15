@@ -1,4 +1,4 @@
-# Senior Fellows at UCLA
+# Library Senior Fellows at UCLA
 
 The program is a collaborative effort of the UCLA Library, UCLA Graduate School of Education and Information Studies, and Ithaka S+R, a nonprofit that provides guidance to the academic community. This project is built using [drupal-composer](https://github.com/drupal-composer/drupal-project) with the [UC D8 distro](https://github.com/ucdavis/sitefarm_seed).
 
