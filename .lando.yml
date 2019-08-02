@@ -1,0 +1,4 @@
+name: senior-fellows
+recipe: drupal8
+config:
+  webroot: web
