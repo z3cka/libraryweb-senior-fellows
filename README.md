@@ -34,8 +34,8 @@ The program is a collaborative effort of the UCLA Library, UCLA Graduate School 
     ```
 
 1. Configure site and profit!? _(note that the default theme is really blank)_
-    1. Go to http://senior-fellows-practice.lndo.site/admin/appearance and "Install and set as default" the "UCLA Gateway" theme.
-    1. Continue to http://senior-fellows-practice.lndo.site/admin/reports/status and fix the rest of your configs. 😳
+    1. Go to http://senior-fellows.lndo.site/admin/appearance and "Install and set as default" the "UCLA Gateway" theme.
+    1. Continue to http://senior-fellows.lndo.site/admin/reports/status and fix the rest of your configs. 😳
 
 ### Deployment Steps
 
